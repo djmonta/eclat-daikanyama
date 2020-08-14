@@ -4,54 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <title>éclat daikanyama</title>
+  <title>éclat daikanyama－エクラ代官山－</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bg-white-op {
-      background: rgba(255, 255, 255, .7);
-    }
-    nav {
-      font-family: 'Noto Sans JP', sans-serif;
-      font-weight: 300;
-    }
-    .nav-item {
-      margin-left: .5rem;
-      margin-right: .5rem;
-    }
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    .bg-image {
-      background-image: url('./assets/images/top-bg.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 850px;
-    }
-
-    h2 {
-      font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="./assets/css/navbar.css" rel="stylesheet">
 </head>
@@ -101,39 +61,106 @@
 
   <div class="my-5" style="height:5rem;"></div>
   <div class="bg-white-op">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-4 text-center">
-          <img src="./assets/images/logo_title.png" class="my-5">
-        </div>
+    <div class="container justify-content-center">
+      <div class="text-center pb-5">
+        <img src="./assets/images/logo_title.png" class="my-5">
+        <button type="button" class="d-block mx-auto btn btn-primary">予約 / Appointment <i class="fa fa-play-circle"></i></button>
       </div>
     </div>
   </div>
   </header>
   
-  
   <div class="container">
-    <h2 class="mx-auto">Schedule</h2>
     <div class="row">
-      <div class="col-2">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
+      <div class="col-5"></div>
+      <div class="col-7 text-center">
+        <img src="./assets/images/logo.png" class="my-5">
+        <p class="text-serif">
+          テラスのある落ち着いた隠れ家サロン éclat daikanyama－エクラ代官山－<br>
+          「éclat」とはフランス語で「輝き」を意味します。<br>
+          当サロンは様々なメディアで活動するスペシャリスト集団です。
+        </p>
       </div>
-      <div class="col-4">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <button type="button" class="btn btn-primary">予約 / Appoint <i class="fa fa-play-circle"></i></button>
-            <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+    <div class="col">
+      <h2 class="mx-auto">Schedule</h2>
+      <div class="row">
+        <div class="col-4">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-salon-tab" data-toggle="pill" href="#v-pills-salon" role="tab" aria-controls="v-pills-salon" aria-selected="true">
+              <img src="./assets/images/logo.png" style="width:100%;">
+            </a>
+            <a class="nav-link text-secondary" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false">K. Yoshinaga</a>
+            <a class="nav-link text-secondary" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">T. Uchida</a>
+            <a class="nav-link text-secondary" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">M. Nonaka</a>
+            <a class="nav-link text-secondary" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Y. Imura</a>
+            <a class="nav-link text-secondary" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false">Y. Hosaka</a>
+            <a class="nav-link text-secondary" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false">T. Oyagi</a>
+            <a class="nav-link text-secondary" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="false">T. Oya</a>
+            <a class="nav-link text-secondary" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab" aria-controls="v-pills-9" aria-selected="false">Y. Ikeda</a>
           </div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Profile</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-salon" role="tabpanel" aria-labelledby="v-pills-salon-tab">
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100 mb-4">
+            </div>
+            <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+            <div class="tab-pane fade" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab">
+              <button type="button" class="btn btn-primary btn-sm">予約 / Appointment <i class="fa fa-play-circle"></i></button>
+              <img src="./assets/images/calendar.png" class="d-block w-100 mw-100">
+            </div>
+          </div>
+        </div>
+        <p class="font-size-small mt-3">
+          《営業日時》火～日曜日、祝日 /  11：00～19：00（最終受付）<br>
+          《定休日》月曜日
+        </p>
+      </div>
+    </div>
+    <div class="col">
+      <h2 class="mx-auto">Staff</h2>
+      <div class="row">
+        <div class="col-3">
+          <img src="./assets/images/staff/k_yoshinaga.jpg" class="w-100 mw-100">
+          <p>
+            吉永 恭将<br>
+            Kyosuke Yoshinaga<br>
+            <span class="text-serif">Hair Color Carelist</span>
+          </p>
         </div>
       </div>
+    </div>
     </div>
   </div>
 
