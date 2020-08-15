@@ -60,6 +60,10 @@ nav {
   margin-left: .5rem;
   margin-right: .5rem;
 }
+.sns-icon {
+  font-size: .5rem;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -124,6 +128,9 @@ h2 {
 }
 .h2-small {
   font-size: .5rem;
+}
+.h2-small img {
+  width: 2rem;
 }
 @media (min-width: 768px) {
   h2 {
