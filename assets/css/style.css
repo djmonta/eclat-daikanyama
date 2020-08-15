@@ -93,14 +93,20 @@ nav {
 
 @media (min-width: 768px) {
   .bg-image {
-    height: 850px;
-  }
-  .height-25 {
-    height: 25%;
+    height: 53vw;
   }
   .width-45 {
     width: auto;
   }
+}
+@media (min-width: 992px) {
+  .height-25 {
+    height: 20%;
+  }
+}
+.header-sns-icons {
+  margin-top: 4rem;
+  width: 20%;
 }
 
 .staff-img {

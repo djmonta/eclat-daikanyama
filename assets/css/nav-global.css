@@ -57,6 +57,10 @@ body {
   .navbar-collapse {
     height: auto;
   }
+  /* .collapse.show .header-title {
+    display: none;
+  } */
+
 }
 .nav-global .sns-icon {
   text-align: center;
