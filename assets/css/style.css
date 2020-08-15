@@ -29,15 +29,24 @@ a, a:hover {
   border-radius: 0;
   border-top: 0.5px solid #606060;
   font-size: small;
-  padding: .25rem 1rem;
+  padding: .25rem 0;
 }
+
 .tab-content>.tab-pane {
   border-radius: .5rem;
   border: 1px solid #606060;
-  padding: .5rem 1rem;
+  padding: .5rem;
 }
 .tab-content>.tab-pane .btn {
   margin-bottom: .5rem;
+}
+@media (min-width: 768px) {
+  .nav-pills .nav-link {
+    padding-left: 1rem;
+  }
+  .tab-content>.tab-pane {
+    padding: .5rem 1rem;
+  }
 }
 
 .bg-white-op {
@@ -59,7 +68,11 @@ nav {
   -ms-user-select: none;
   user-select: none;
 }
-
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 .bg-image {
   background-image: url('../images/top-bg.jpg');
   background-repeat: no-repeat;
@@ -106,8 +119,21 @@ h2 {
   text-align: center;
 }
 h2 {
+  font-size: 1.5rem;
   margin: 1rem auto;
 }
+.h2-small {
+  font-size: .5rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+  .h2-small {
+    font-size: .75rem;
+  }
+}
+
 h3 {
   font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.25rem;
@@ -120,7 +146,7 @@ h3 {
 
 .font-family-serif {
   font-family: 'ヒラギノ明朝 ProN', serif;
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 @media (min-width: 768px) {
@@ -137,22 +163,35 @@ h3 {
 }
 
 .font-size-small {
-  font-size: small;
+  font-size: 11px;
 }
 .font-size-xsmall {
-  font-size: x-small;
+  font-size: 10px;
 }
 .font-size-12 {
-  font-size: 11px;
-  letter-spacing: -0.2px;
+  font-size: 9px;
+  letter-spacing: -0.3px;
 }
 .font-size-11 {
-  font-size: 11px;
+  font-size: 9px;
   letter-spacing: -0.4px;
 }
 
 @media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+  .font-size-small {
+    font-size: small;
+  }
+  
+  .font-size-xsmall {
+    font-size: x-small;
+  }
+  
+  .font-size-12 {
+    font-size: 11px;
+    letter-spacing: -0.2px;
+  }
+  .font-size-11 {
+    font-size: 11px;
+    letter-spacing: -0.4px;
   }
 }
