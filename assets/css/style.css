@@ -117,12 +117,12 @@ nav {
 }
 .header-sns-icons {
   margin-top: 2rem;
-  width: 25%;
+  width: 250px;
 }
 @media (min-width: 1200px) {
   .header-sns-icons {
     margin-top: 4rem;
-    width: 17.5%;
+    width: 275px;
   }
 }
 .staff-img {
