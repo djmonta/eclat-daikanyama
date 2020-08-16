@@ -168,6 +168,14 @@ h3 {
   font-size: 1.25rem;
   border-bottom: 1px solid #aaa;
 }
+h3 span {
+  display: block;
+  font-family: 'Noto Sans JP', serif;
+  font-weight: lighter;
+  font-size: .8rem;
+  float: right;
+  margin-top: 7px;
+}
 .text-serif {
   font-family: 'ヒラギノ明朝 ProN', serif;
   text-align: center;
@@ -262,10 +270,33 @@ dd {
 .ml-45 {
   margin-left: 2.5rem;
 }
-.page-price ul {
+.ul-small ul {
   padding-left: 2.5rem;
 }
-.page-price li {
+.ul-small li {
   font-size: .8rem;
   padding-right: 1.5rem;
+}
+
+.collapse-toggle-a {
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
+  display: block;
+  padding: .25rem 0;
+  text-align: center;
+}
+.collapse-toggle-a.bb {
+  border-bottom: 1px solid #808080;
+}
+.collapse-toggle-a.br {
+  border-right: 1px solid #808080;
+}
+.collapse-toggle-a.collapsed {
+  background: #ddd;
+}
+
+@media (min-width: 992px) {
+  .page-price .collapse:not(.show) {
+    display: block;
+  }
 }

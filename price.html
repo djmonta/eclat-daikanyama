@@ -84,10 +84,27 @@
   <div class="container container-md mt-5">
     <h2 class="mx-auto">Prices</h2>
 
+    <div class="d-lg-none">
+      <div class="row row-cols-3 no-gutters">
+        <a class="collapse-toggle-a" data-toggle="collapse" href="#cut-color" role="button" aria-expanded="true" aria-controls="cut-color">Cut / Color</a>
+        <a class="collapse-toggle-a collapsed" data-toggle="collapse" href="#permanent" role="button" aria-expanded="false" aria-controls="permanent">Permanent</a>
+        <a class="collapse-toggle-a collapsed br" data-toggle="collapse" href="#hair-make" role="button" aria-expanded="false" aria-controls="hair-make">Hair-Make</a>
+        <a class="collapse-toggle-a collapsed" data-toggle="collapse" href="#treatment" role="button" aria-expanded="false" aria-controls="treatment">Treatment</a>
+        <a class="collapse-toggle-a collapsed" data-toggle="collapse" href="#wedding-hair-make" role="button" aria-expanded="false" aria-controls="wedding-hair-make">Wedding Hair-Make</a>
+        <a class="collapse-toggle-a collapsed bb br" data-toggle="collapse" href="#head-spa" role="button" aria-expanded="false" aria-controls="head-spa">Head Spa</a>
+        <a class="collapse-toggle-a collapsed bb" data-toggle="collapse" href="#others" role="button" aria-expanded="false" aria-controls="others">Others</a>
+        <a class="collapse-toggle-a collapsed bb br" data-toggle="collapse" href="#nail" role="button" aria-expanded="false" aria-controls="nail">Nail</a>
+      </div>
+    </div>
+    <p class="font-size-small mt-4 d-block d-lg-none">
+      ※記載の金額は全て税抜金額です。別途消費税がかかります。
+    </p>
+
+    <div id="collapse-parent">
     <div class="row row-cols-1 row-cols-lg-3 mt-4">
-      <div class="col-lg px-4">
+      <div class="col-lg px-4 collapse show" id="cut-color" data-parent="#collapse-parent">
         <div>
-        <h3>Cut</h3>
+        <h3>Cut <span>※学生割引 20% OFF</span></h3>
         <dl class="d-flex flex-column dt-asterisk">
           <div class="row mx-0">
             <dt class="">トップスタイリスト</dt>
@@ -106,9 +123,7 @@
             <dd class="">\ 2,000</dd>
           </div>
         </dl>
-        </div>
 
-        <div>
         <h3>Color</h3>
         <dl class="d-flex flex-column dt-asterisk">
           <div class="row mx-0 border-bottom">
@@ -288,7 +303,7 @@
       </div>
 
       <div class="col-lg px-4">
-        <div>
+        <div class="collapse" id="permanent" data-parent="#collapse-parent">
         <h3>Permanent</h3>
         <dl class="d-flex flex-column dt-asterisk">
           <div class="row mx-0">
@@ -433,7 +448,7 @@
         </dl>
         </div>
 
-        <div>
+        <div class="collapse" id="treatment" data-parent="#collapse-parent">
         <h3>Treatment</h3>
         <dl class="d-flex flex-column dt-asterisk">
           <div class="row mx-0">
@@ -508,7 +523,7 @@
       </div>
 
       <div class="col-lg px-4">
-        <div>
+        <div class="collapse" id="hair-make" data-parent="#collapse-parent">
         <h3>Hair-Make</h3>
         <dl class="d-flex flex-column">
           <div class="row mx-0">
@@ -542,8 +557,8 @@
         </dl>
         </div>
 
-        <div>
-        <h3>Wedding Hair-Make</h3>
+        <div class="collapse" id="wedding-hair-make" data-parent="#collapse-parent">
+        <h3>Wedding Hair-Make <span>※ 出張交通費は別途</span></h3>
         <dl class="d-flex flex-column">
           <div class="row mx-0">
             <dt class="">ブライダルセット＆メイク</dt>
@@ -587,7 +602,7 @@
         </dl>
         </div>
 
-        <div>
+        <div class="collapse" id="head-spa" data-parent="#collapse-parent">
         <h3>Head Spa</h3>
         <dl class="d-flex flex-column">
           <div class="row mx-0">
@@ -637,332 +652,330 @@
     </div>
     
     <div class="row row-cols-1 row-cols-lg-3 mt-5">
-      <div class="col-lg-4">
-        <div>
-          <h3>Others</h3>
-          <dl class="dt-asterisk d-flex flex-column">
-            <div class="row mx-0">
-              <dt class="dt-square">着付け</dt>
-            </div>
-            <div class="row mx-0">
-              <dt class="ml-2">浴衣</dt>
-              <dd>\ 6,000</dd>
-            </div>
-            <div class="row mx-0">
-              <dt class="ml-2">訪問着</dt>
-              <dd>\ 9,000</dd>
-            </div>
-            <div class="row mx-0 border-bottom">
-              <dt class="ml-2">振袖</dt>
-              <dd>\ 13,000</dd>
-            </div>
+      <div class="col-lg-4 collapse" id="others" data-parent="#collapse-parent">
+        <h3>Others</h3>
+        <dl class="dt-asterisk d-flex flex-column">
+          <div class="row mx-0">
+            <dt class="dt-square">着付け</dt>
+          </div>
+          <div class="row mx-0">
+            <dt class="ml-2">浴衣</dt>
+            <dd>\ 6,000</dd>
+          </div>
+          <div class="row mx-0">
+            <dt class="ml-2">訪問着</dt>
+            <dd>\ 9,000</dd>
+          </div>
+          <div class="row mx-0 border-bottom">
+            <dt class="ml-2">振袖</dt>
+            <dd>\ 13,000</dd>
+          </div>
 
-            <div class="row mx-0">
-              <dt class="dt-square">シャンプーブロー</dt>
-              <div class="ml-auto">
-                <dd class="mr-3">S</dd>
-                <dd class="price">\ 2,000</dd>
-              </div>
+          <div class="row mx-0">
+            <dt class="dt-square">シャンプーブロー</dt>
+            <div class="ml-auto">
+              <dd class="mr-3">S</dd>
+              <dd class="price">\ 2,000</dd>
             </div>
-            <div class="row mx-0 border-bottom">
-              <div class="ml-auto">
-                <dd class="mr-3">M</dd>
-                <dd class="price">\ 3,000</dd>
-              </div>
+          </div>
+          <div class="row mx-0 border-bottom">
+            <div class="ml-auto">
+              <dd class="mr-3">M</dd>
+              <dd class="price">\ 3,000</dd>
             </div>
+          </div>
 
-            <div class="row mx-0">
-              <dt class="dt-square">メイク講習</dt>
-            </div>
-            <div class="row mx-0">
-              <dd class="mx-auto">
-                <a href="#">詳細はこちら >></a>
-              </dd>
-            </div>
+          <div class="row mx-0">
+            <dt class="dt-square">メイク講習</dt>
+          </div>
+          <div class="row mx-0">
+            <dd class="mx-auto">
+              <a href="#">詳細はこちら >></a>
+            </dd>
+          </div>
 
-          </dl>
-        </div>
+        </dl>
       </div>
 
-      <div class="col-lg-8">
-        <div>
-          <h3>Nail</h3>
+      <div class="col-lg-8 collapse" id="nail" data-parent="#collapse-parent">
+        <h3>Nail</h3>
 
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col-lg">
-              <dl class="dt-asterisk d-flex flex-column">
-                <div class="row mx-0">
-                  <dt class="dt-square">レディース・ネイル</dt>
-                </div>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col-lg">
+            <dl class="dt-asterisk d-flex flex-column">
+              <div class="row mx-0">
+                <dt class="dt-square">レディース・ネイル</dt>
+              </div>
 
-                <div class="row mx-0">
-                  <dt class="ml-2">ハンドケア 30 分</dt>
-                  <dd class="price">\ 4,000</dd>
-                  <dd class="price-from"></dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-3">（ファイリング・甘皮処理・</dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="mx-auto">ベース or シャイニング込）</dd>
-                </div>
-                <div class="row mx-0 border-bottom">
-                  <dd class="ml-5">※マッサージ +1,000 円</dd>
-                </div>
+              <div class="row mx-0">
+                <dt class="ml-2">ハンドケア 30 分</dt>
+                <dd class="price">\ 4,000</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-3">（ファイリング・甘皮処理・</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="mx-auto">ベース or シャイニング込）</dd>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <dd class="ml-5">※マッサージ +1,000 円</dd>
+              </div>
 
-                <div class="row mx-0">
-                  <dt class="ml-2">スペシャルハンドケア 75 分</dt>
-                  <dd class="price">\ 8,000</dd>
-                  <dd class="price-from"></dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-3">（ファイリング・甘皮処理・マッサージ・</dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-5">ハンドパック・スクラブ・</dd>
-                </div>
-                <div class="row mx-0 border-bottom">
-                  <dd class="mx-auto">ベース or シャイニング込）</dd>
-                </div>
+              <div class="row mx-0">
+                <dt class="ml-2">スペシャルハンドケア 75 分</dt>
+                <dd class="price">\ 8,000</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-3">（ファイリング・甘皮処理・マッサージ・</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-5">ハンドパック・スクラブ・</dd>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <dd class="mx-auto">ベース or シャイニング込）</dd>
+              </div>
 
-                <div class="row mx-0 border-bottom">
-                  <dt class="ml-2">マニキュアカラーオフ 10 分</dt>
-                  <dd class="price">\ 500</dd>
-                  <dd class="price-from"></dd>
-                </div>
+              <div class="row mx-0 border-bottom">
+                <dt class="ml-2">マニキュアカラーオフ 10 分</dt>
+                <dd class="price">\ 500</dd>
+                <dd class="price-from"></dd>
+              </div>
 
-                <div class="row mx-0">
-                  <dt class="ml-2">ジェルカラーオフ 30 分</dt>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">当店付け替え</dd>
-                  <dd class="price">無料</dd>
-                  <dd class="price-from"></dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">※他店付け替え</dd>
+              <div class="row mx-0">
+                <dt class="ml-2">ジェルカラーオフ 30 分</dt>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">当店付け替え</dd>
+                <dd class="price">無料</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">※他店付け替え</dd>
+                <dd class="price">\ 1,500</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <dd class="ml-4">※他店オフのみ</dd>
+                <dd class="price">\ 3,000</dd>
+                <dd class="price-from"></dd>
+              </div>
+
+              <div class="row mx-0">
+                <dt class="ml-2">マニキュアネイル 20 分</dt>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <div class="ml-auto">
+                  <dd class="mr-3">（ワンカラーのみ）</dd>
                   <dd class="price">\ 1,500</dd>
                   <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0 border-bottom">
-                  <dd class="ml-4">※他店オフのみ</dd>
-                  <dd class="price">\ 3,000</dd>
+              </div>
+
+              <div class="row mx-0">
+                <dt class="ml-2">ジェルネイル（全てドライケア込）</dt>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- クリア（10 本）45 分</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 6,000</dd>
                   <dd class="price-from"></dd>
                 </div>
-
-                <div class="row mx-0">
-                  <dt class="ml-2">マニキュアネイル 20 分</dt>
-                </div>
-                <div class="row mx-0 border-bottom">
-                  <div class="ml-auto">
-                    <dd class="mr-3">（ワンカラーのみ）</dd>
-                    <dd class="price">\ 1,500</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-
-                <div class="row mx-0">
-                  <dt class="ml-2">ジェルネイル（全てドライケア込）</dt>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- クリア（10 本）45 分</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 6,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- ラメグラデーション（10 本）60 分</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 8,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- カラージェル（10 本）60 分</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 7,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-
-                <div class="row mx-0">
-                  <dd class="ml-4">- フレンチ＋カラーグラデーション</dd>
-                </div>
-                <div class="row mx-0">
-                  <div class="ml-auto">
-                    <dd>（10 本）75分</dd>
-                    <dd class="price">\ 8,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-
-                <div class="row mx-0">
-                  <dd class="ml-4">※ フットジェルネイル各メニュー：</dd>
-                </div>
-                <div class="row mx-0">
-                  <div class="ml-auto">
-                    <dd>+2,000 円（15分）</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-
-                <div class="row mx-0 border-bottom">
-                  <dd class="ml-4">※ ウォーターケア：+/1,000 円</dd>
-                </div>
-
-                <div class="row mx-0">
-                  <dt class="ml-2">オプション</dt>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- マーブルアート（10 本）</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 2,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- ストーンアート（1 本）</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 100</dd>
-                    <dd class="price-from">〜</dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- 補強（1 本）</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 500</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">- 長さだし（1 本）</dd>
-                  <div class="ml-auto">
-                    <dd class="price">\ 600</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-              </dl>
-            </div>
-
-            <div class="col-lg">
-              <dl class="dt-asterisk d-flex flex-column">
-                <div class="row mx-0">
-                  <dt class="dt-square">キッズ・ネイル</dt>
-                </div>
-                <div class="row mx-0">
-                  <dt class="ml-2">ハンド＆フット 15分</dt>
-                  <dd class="price">\ 1,200</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- ラメグラデーション（10 本）60 分</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 8,000</dd>
                   <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0 border-bottom">
-                  <dd class="ml-3">（カラー 10本・シールアート 2 本）</dd>
-                </div>
-
-                <div class="row mx-0">
-                  <dt class="dt-square">メンズ・ネイル</dt>
-                </div>
-                <div class="row mx-0">
-                  <dt class="ml-2">ケア 45分</dt>
-                  <dd class="price">\ 5,000</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- カラージェル（10 本）60 分</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 7,000</dd>
                   <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0">
-                  <dd class="ml-3">（ファイリング・甘皮処理・</dd>
-                </div>
-                <div class="row mx-0 border-bottom">
-                  <dd class="mx-auto">希望者はシャイニング込）</dd>
-                </div>
+              </div>
 
-                <div class="row mx-0">
-                  <dt class="dt-square">ウェディング・ネイル</dt>
+              <div class="row mx-0">
+                <dd class="ml-4">- フレンチ＋カラーグラデーション</dd>
+              </div>
+              <div class="row mx-0">
+                <div class="ml-auto">
+                  <dd>（10 本）75分</dd>
+                  <dd class="price">\ 8,000</dd>
+                  <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0">
-                  <dt class="ml-2">ご自身の爪の長さで</dt>
-                </div>
-                <div class="row mx-0">
-                  <div class="ml-auto">
-                    <dd class="">綺麗に長持ちさせたい方</dd>
-                    <dd class="price">\ 12,000</dd>
-                    <dd class="price-from"></dd>
-                  </div>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-3">（フットジェルネイル込み \ 22,000）</dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-4">
-                    - 甘皮処理<br>
-                    - 自爪カット<br>
-                    - 長さだしの人工爪<br>
-                    - ハンドパック<br>
-                    - 打ち合わせ込み
-                  </dd>
-                </div>
+              </div>
 
-                <div class="row mx-0 mt-2">
-                  <dt class="ml-2">人工的に長さを作りたい方（スカルプ）</dt>
+              <div class="row mx-0">
+                <dd class="ml-4">※ フットジェルネイル各メニュー：</dd>
+              </div>
+              <div class="row mx-0">
+                <div class="ml-auto">
+                  <dd>+2,000 円（15分）</dd>
+                  <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0">
-                  <dd class="ml-45">
-                    自爪の金額に +¥5,000 （10 本セット）<br>
-                    ※1 本¥600
-                  </dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-35">（フットジェルネイル込み \ 27,000）</dd>
-                </div>
-                <div class="row mx-0">
-                  <dd class="ml-45">
-                    - 甘皮処理<br>
-                    - 自爪カット<br>
-                    - 長さだしの人工爪<br>
-                    - ハンドパック<br>
-                    - 打ち合わせ込み
-                  </dd>
-                </div>
+              </div>
 
-                <div class="row mx-0 mt-2">
-                  <dt class="ml-2">付け外し可能なチップタイプの人工爪</dt>
-                  <dd class="price">\ 15,000</dd>
+              <div class="row mx-0 border-bottom">
+                <dd class="ml-4">※ ウォーターケア：+/1,000 円</dd>
+              </div>
+
+              <div class="row mx-0">
+                <dt class="ml-2">オプション</dt>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- マーブルアート（10 本）</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 2,000</dd>
+                  <dd class="price-from"></dd>
+                </div>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- ストーンアート（1 本）</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 100</dd>
                   <dd class="price-from">〜</dd>
                 </div>
-                <div class="row mx-0">
-                  <dd class="ml-3">（フットジェルネイル込み \ 25,000）</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- 補強（1 本）</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 500</dd>
+                  <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0">
-                  <dd class="ml-45">※打ち合わせ必須</dd>
-                  <dd class="price"></dd>
-                  <dd class="price-from">〜</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">- 長さだし（1 本）</dd>
+                <div class="ml-auto">
+                  <dd class="price">\ 600</dd>
+                  <dd class="price-from"></dd>
                 </div>
-                <div class="row mx-0">
-                  <dd class="ml-45">
-                    - チップサイズ合わせ<br>
-                    - カラー＋デザイン<br>
-                    - 強力粘着テープ<br>
-                    - チップケース<br>
-                    - ハンドケアコース込み
-                  </dd>
-                </div>
+              </div>
+            </dl>
+          </div>
 
-              </dl>
-            </div>
+          <div class="col-lg">
+            <dl class="dt-asterisk d-flex flex-column">
+              <div class="row mx-0">
+                <dt class="dt-square">キッズ・ネイル</dt>
+              </div>
+              <div class="row mx-0">
+                <dt class="ml-2">ハンド＆フット 15分</dt>
+                <dd class="price">\ 1,200</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <dd class="ml-3">（カラー 10本・シールアート 2 本）</dd>
+              </div>
+
+              <div class="row mx-0">
+                <dt class="dt-square">メンズ・ネイル</dt>
+              </div>
+              <div class="row mx-0">
+                <dt class="ml-2">ケア 45分</dt>
+                <dd class="price">\ 5,000</dd>
+                <dd class="price-from"></dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-3">（ファイリング・甘皮処理・</dd>
+              </div>
+              <div class="row mx-0 border-bottom">
+                <dd class="mx-auto">希望者はシャイニング込）</dd>
+              </div>
+
+              <div class="row mx-0">
+                <dt class="dt-square">ウェディング・ネイル</dt>
+              </div>
+              <div class="row mx-0">
+                <dt class="ml-2">ご自身の爪の長さで</dt>
+              </div>
+              <div class="row mx-0">
+                <div class="ml-auto">
+                  <dd class="">綺麗に長持ちさせたい方</dd>
+                  <dd class="price">\ 12,000</dd>
+                  <dd class="price-from"></dd>
+                </div>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-3">（フットジェルネイル込み \ 22,000）</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-4">
+                  - 甘皮処理<br>
+                  - 自爪カット<br>
+                  - 長さだしの人工爪<br>
+                  - ハンドパック<br>
+                  - 打ち合わせ込み
+                </dd>
+              </div>
+
+              <div class="row mx-0 mt-2">
+                <dt class="ml-2">人工的に長さを作りたい方（スカルプ）</dt>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-45">
+                  自爪の金額に +¥5,000 （10 本セット）<br>
+                  ※1 本¥600
+                </dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-35">（フットジェルネイル込み \ 27,000）</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-45">
+                  - 甘皮処理<br>
+                  - 自爪カット<br>
+                  - 長さだしの人工爪<br>
+                  - ハンドパック<br>
+                  - 打ち合わせ込み
+                </dd>
+              </div>
+
+              <div class="row mx-0 mt-2">
+                <dt class="ml-2">付け外し可能なチップタイプの人工爪</dt>
+                <dd class="price">\ 15,000</dd>
+                <dd class="price-from">〜</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-3">（フットジェルネイル込み \ 25,000）</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-45">※打ち合わせ必須</dd>
+                <dd class="price"></dd>
+                <dd class="price-from">〜</dd>
+              </div>
+              <div class="row mx-0">
+                <dd class="ml-45">
+                  - チップサイズ合わせ<br>
+                  - カラー＋デザイン<br>
+                  - 強力粘着テープ<br>
+                  - チップケース<br>
+                  - ハンドケアコース込み
+                </dd>
+              </div>
+
+            </dl>
           </div>
         </div>
       </div>
 
     </div>
 
-    <div class="">
-      ※記載の金額は全て税抜金額です。別途消費税がかかります。
     </div>
-    <div class="row row-cols-1 row-cols-lg-2 mt-2">
+
+    <p class="font-size-small mt-4 d-none d-lg-block">
+      ※記載の金額は全て税抜金額です。別途消費税がかかります。
+    </p>
+    <div class="row row-cols-1 row-cols-lg-2 mt-2 align-items-stretch">
       <div class="col-lg">
-        <div class="border rounded p-3">
-        <div class="border-bottom px-3">
+        <div class="border rounded p-3 h-100">
+        <div class="border-bottom px-3 pb-1">
           各種クレジットカードがご利用できます
         </div>
-        <div>
+        <div class="ul-small">
           <ul class="mt-2">
             <li>当サロンではクレジットカードでのお支払いが可能です。</li>
             <li>ご利用可能クレジットカード：VISA、MasterCard、JCB、AMEX、Diners Club</li>
@@ -972,11 +985,11 @@
       </div>
       </div>
       <div class="col-lg">
-        <div class="border rounded p-3">
-        <div class="border-bottom px-3">
+        <div class="border rounded p-3 h-100">
+        <div class="border-bottom px-3 pb-1">
           プリペイドカードのご案内
         </div>
-        <div>
+        <div class="ul-small">
           <ul class="mt-2">
             <li>当サロンでは施術後のご面倒な会計手続きを軽減し、速やかにご帰宅いただけるようにするプリペイドカードシステムを設けております。プリペイドカード会計では、その日の施術にかかった費用の領収書と、預かり金（プリペイドカード）の残額が記載された明細書をお渡ししております。</li>
             <li class="pr-lg-2">プリペイドカードはご本人様だけでなく、ご家族の方もご利用いただくことが可能です。</li>
