@@ -297,7 +297,7 @@ dd {
 }
 
 @media (min-width: 992px) {
-  .page-price .collapse:not(.show) {
+  #collapse-parent .collapse:not(.show) {
     display: block;
   }
 }
