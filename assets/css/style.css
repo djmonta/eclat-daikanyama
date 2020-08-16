@@ -262,10 +262,10 @@ dd {
 .ml-45 {
   margin-left: 2.5rem;
 }
-ul {
+.price ul {
   padding-left: 2.5rem;
 }
-li {
+.price li {
   font-size: .8rem;
   padding-right: 1.5rem;
 }
