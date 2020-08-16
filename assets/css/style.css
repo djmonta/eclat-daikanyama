@@ -56,10 +56,13 @@ nav {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
 }
-.nav-item {
-  margin-left: .5rem;
-  margin-right: .5rem;
+@media (min-width: 1200px) {
+  .nav-item {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
 }
+
 .sns-icon {
   font-size: .5rem;
 }
@@ -95,20 +98,33 @@ nav {
   .bg-image {
     height: 53vw;
   }
+  .height-25 {
+    height: 4vw;
+  }
   .width-45 {
     width: auto;
   }
 }
 @media (min-width: 992px) {
   .height-25 {
+    height: 7vw;
+  }
+}
+@media (min-width: 1200px) {
+  .height-25 {
     height: 20%;
   }
 }
 .header-sns-icons {
-  margin-top: 4rem;
-  width: 20%;
+  margin-top: 2rem;
+  width: 25%;
 }
-
+@media (min-width: 1200px) {
+  .header-sns-icons {
+    margin-top: 4rem;
+    width: 17.5%;
+  }
+}
 .staff-img {
   background-size: 140% auto;
   background-repeat: no-repeat;
@@ -207,4 +223,49 @@ h3 {
     font-size: 11px;
     letter-spacing: -0.4px;
   }
+}
+
+dt, dd {
+  font-size: .9rem;
+}
+dt {
+  font-weight: normal;
+  display: list-item;
+  list-style: none;
+}
+.dt-asterisk dt:before {
+  content: "＊";
+  font-family: '小塚明朝 Pro', serif;
+}
+dt.dt-square:before {
+  content: "■";
+  font-family: '小塚明朝 Pro', serif;
+}
+
+dd {
+  display: inline-block;
+  margin-left: auto;
+  margin-bottom: .2rem;
+}
+.price {
+  text-align: right;
+  width: 4rem;
+}
+.price-from {
+  margin-left: 0;
+  text-align: right;
+  width: 1.2rem;
+}
+.ml-35 {
+  margin-left: 2rem;
+}
+.ml-45 {
+  margin-left: 2.5rem;
+}
+ul {
+  padding-left: 2.5rem;
+}
+li {
+  font-size: .8rem;
+  padding-right: 1.5rem;
 }
