@@ -169,12 +169,12 @@ h3 {
   border-bottom: 1px solid #aaa;
 }
 h3 span {
-  display: block;
+  display: inline-block;
   font-family: 'Noto Sans JP', serif;
   font-weight: lighter;
   font-size: .8rem;
-  float: right;
   margin-top: 7px;
+  margin-left: auto;
 }
 .text-serif {
   font-family: 'ヒラギノ明朝 ProN', serif;
@@ -282,6 +282,7 @@ dd {
   border-top: 1px solid #808080;
   border-left: 1px solid #808080;
   display: block;
+  font-size: small;
   padding: .25rem 0;
   text-align: center;
 }
@@ -292,7 +293,7 @@ dd {
   border-right: 1px solid #808080;
 }
 .collapse-toggle-a.collapsed {
-  background: #ddd;
+  background: #eaeaea;
 }
 
 @media (min-width: 992px) {
