@@ -119,26 +119,43 @@ nav {
   margin-top: 2rem;
   width: 250px;
 }
+.p-title {
+  font-size: .9rem;
+}
+
 @media (min-width: 1200px) {
   .header-sns-icons {
     margin-top: 4rem;
     width: 275px;
   }
+  .p-title {
+    font-size: 1rem;
+  }
 }
+
+
 .staff-img {
   background-size: 140% auto;
   background-repeat: no-repeat;
   background-position: center 5%;
-  height: 80px;
+  height: 20vw;
   width: 100%;
 }
-
 @media (min-width: 768px) {
+  .staff-img {
+    height: 15vw;
+  }
+}
+@media (min-width: 992px) {
+  .staff-img {
+    height: 8vw;
+  }
+}
+@media (min-width: 1200px) {
   .staff-img {
     height: 100px;
   }
 }
-
 
 h2 {
   font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -186,7 +203,7 @@ h3 span {
   font-size: .7rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   h3 {
     font-size: 1.35rem;
   }
