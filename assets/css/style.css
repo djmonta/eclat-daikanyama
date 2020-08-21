@@ -137,12 +137,15 @@ nav {
 }
 @media (min-width: 768px) {
   .bg-image {
-    height: 50vw;
+    height: 480px;
   }
   .width-45 {
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
+  .bg-image {
+    height: 50vw;
+  }
 }
 @media (min-width: 1200px) {
   .height-25 {
