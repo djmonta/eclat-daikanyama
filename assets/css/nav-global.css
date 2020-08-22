@@ -7,7 +7,7 @@ body {
 }
 
 .nav-global {
-  position: relative;
+  /* position: relative; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -40,6 +40,11 @@ body {
 @media (max-width: 575.98px) {
   .nav-global {
     padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }
   .navbar-toggler {
     padding: 0 0 0 .5rem;
@@ -67,17 +72,22 @@ body {
     height: auto;
   }
   .nav-link {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: .5em;
+    padding-right: .5em;
   }
   /* .collapse.show .header-title {
     display: none;
   } */
-
+}
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: .9rem;
+  }
 }
 @media (min-width: 1200px) {
-  .nav-link {
-    font-size: inherit;
-  }
 }
 .nav-global .sns-icon {
   text-align: center;

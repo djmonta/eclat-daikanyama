@@ -57,7 +57,12 @@ a, a:hover {
   margin-bottom: 7.5%;
 }
 .mt-5-p {
-  padding-top: 2vw;
+  padding-top: 3vw;
+}
+@media (min-width: 1200px) {
+  .mt-5-p {
+    padding-top: 3rem;
+  }
 }
 .mr-4-p {
   margin-right: 3%;
@@ -247,7 +252,7 @@ nav {
     height: 480px;
   }
   .width-45 {
-    width: 25%;
+    width: 20vw;
   }
 }
 @media (min-width: 768px) {
@@ -263,19 +268,26 @@ nav {
   .height-25 {
     height: 25%;
   }
+  .width-45 {
+    width: 20%;
+  }
 }
 .header-sns-icons {
   margin-top: 2.5%;
   width: 20%;
 }
 .header-sns-icons a {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .p-title {
   font-size: .9rem;
 }
-
+@media (min-width: 960px) {
+  .header-sns-icons {
+    width: 16%;
+  }
+}
 @media (min-width: 1200px) {
   .p-title {
     font-size: 1rem;
