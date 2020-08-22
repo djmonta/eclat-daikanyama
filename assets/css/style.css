@@ -470,7 +470,7 @@ dd {
 
 iframe {
   border: 0;
-  width: 40%;
+  width: 30%;
   height: 300px;
   margin-left: 4%;
   margin-bottom: 4%;
@@ -484,6 +484,11 @@ iframe {
 @media (min-width: 1200px) {
   iframe {
     height: 320px;
+  }
+}
+@media (max-width: 575.99px) {
+  .clear-left {
+    clear: left;
   }
 }
 
