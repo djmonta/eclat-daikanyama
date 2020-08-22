@@ -330,10 +330,7 @@ h2 {
 .h2-small img {
   width: 1.5rem;
 }
-.staff-h2 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
+
 @media (min-width: 768px) {
   h2 {
     font-size: 1.75rem;
@@ -494,7 +491,28 @@ dd {
   padding-left: 5%;
   padding-right: 5%;
 }
+@media (min-width: 576px) {
+  .container.staff {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media (min-width: 1200px) {
+  .container.staff {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 
+.staff-h2 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+@media (min-width: 576px) {
+  .staff-h2 {
+    margin-bottom: 0;
+  }
+}
 h3.staff-h3 {
   border-bottom: 0;
   font-family: initial;
@@ -538,12 +556,15 @@ h4  {
 .iframe-sm {
   border: 0;
   width: 32%;
-  height: 280px;
-  margin-left: 2%;
-  margin-bottom: 2%;
+  height: 300px;
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
   float: right;
 }
 
+.clear-right {
+  clear: right;
+}
 @media (max-width: 575.99px) {
   .clear-left {
     clear: left;
@@ -559,7 +580,6 @@ h4  {
   }  
 }
 .pic-container {
-  overflow: hidden;
   height: 30vw;
 }
 .bg-picture {
