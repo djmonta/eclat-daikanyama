@@ -41,6 +41,9 @@ a, a:hover {
   background: rgb(4, 0, 129);
   border-color: rgb(4, 0, 129);
 }
+.btn {
+  padding: .15rem .75rem;
+}
 .btn-sm {
   font-size: .7rem;
   padding: .25rem .5rem;
@@ -58,11 +61,21 @@ a, a:hover {
 .mb-1-p {
   margin-bottom: 1%;
 }
+.mb-2-p {
+  margin-bottom: 2%;
+}
+.mt-2-p {
+  margin-top: 2%;
+}
 .mb-5-p {
   margin-bottom: 7.5%;
 }
 .mt-5-p {
   padding-top: 3vw;
+}
+.my-5-p {
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
 }
 @media (min-width: 1200px) {
   .mt-5-p {
@@ -197,10 +210,15 @@ a, a:hover {
     padding: .5rem 1rem;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .tab-content.schedule>.tab-pane {
-    height: auto;
+    height: 25rem;
   }
+}
+.tab-content.schedule>.tab-pane iframe {
+  margin: 0 auto;
+  height: 95%;
+  width: 95%;
 }
 
 .bg-white-op {
@@ -264,7 +282,7 @@ nav {
   .width-45 {
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .bg-image {
     height: 50vw;
   }
@@ -288,9 +306,22 @@ nav {
 .p-title {
   font-size: .9rem;
 }
-@media (min-width: 960px) {
+@media (min-width: 576px) {
+  .p-title {
+    font-size: 1.4vw;
+  }
+}
+@media (min-width: 768px) {
+  /* .p-title {
+    font-size: .85rem;
+  } */
+}
+@media (min-width: 992px) {
   .header-sns-icons {
     width: 16%;
+  }
+  .p-title {
+    font-size: .85rem;
   }
 }
 @media (min-width: 1200px) {
@@ -664,4 +695,18 @@ h4  {
 }
 .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail {
   background-image: none;
+}
+.works .v {
+  width: 32%;
+}
+.works .h {
+  width: 50%;
+}
+@media (min-width: 576px) {
+  .works .v {
+    width: 20%;
+  }
+  .works .h {
+    width: 32.5%;
+  }
 }
