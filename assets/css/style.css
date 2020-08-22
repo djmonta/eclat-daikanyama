@@ -223,6 +223,7 @@ nav {
     font-size: 3.5rem;
   }
 }
+
 .bg-image {
   background-image: url('../images/top-bg.jpg');
   background-repeat: no-repeat;
@@ -241,14 +242,14 @@ nav {
 }
 
 @media (min-width: 576px) {
+  .bg-image {
+    height: 480px;
+  }
   .width-45 {
     width: 25%;
   }
 }
 @media (min-width: 768px) {
-  .bg-image {
-    height: 480px;
-  }
   .width-45 {
   }
 }
