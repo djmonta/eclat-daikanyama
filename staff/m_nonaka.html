@@ -11,7 +11,7 @@
   <!-- Bootstrap core CSS -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/all.min.css" rel="stylesheet">
-  <link href="../assets/css/jquery.mCustomScrollbar.css" rel="stylesheet" >
+  <link href="../assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
   <link href="../assets/css/style.css" rel="stylesheet">
   <link href="../assets/css/nav-global.css" rel="stylesheet">
 </head>
@@ -20,7 +20,7 @@
     <div class="container container-lg px-0">
   <nav class="navbar-expand-sm nav-global bg-white-op">
     <div class="container container-lg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../index.html">
         <img src="../assets/images/logo.png" class="mw-100">
       </a>
       <a href="#" target="_blank" rel="nofollow" class="d-sm-none btn btn-primary btn-sm ml-auto">
@@ -84,21 +84,46 @@
   </div>
   </header>
 
-  <div class="container">
+  <div class="container staff">
     <h2 class="staff-h2">Staff</h2>
-    <div class="row my-5">
-      <div class="col-5 col-sm-3">
-        <img src="../assets/images/staff/m_nonaka.jpg" class="mw-100 mb-2">
-        <a href="#" target="_blank" rel="nofollow" class="btn btn-primary btn-sm">指名 / Appointment <i class="fa fa-play-circle"></i></a>
+    <div class="row">
+    <div class="col-sm-11 mx-auto mt-5-p">
+
+      <div class="float-left w-22 mr-4-p pic-container">
+        <div class="bg-picture" style="background-image:url('../assets/images/staff/m_nonaka.jpg');background-size: 100%;">
+          <img src="../assets/images/staff/m_nonaka.jpg" class="d-none">
+        </div>
+        <a href="#" target="_blank" rel="nofollow" class="btn btn-primary btn-sm d-none d-sm-inline-block">指名 / Appointment <i class="fa fa-play-circle"></i></a>
       </div>
-      <div class="col-7 col-sm-9">
-        <iframe class="d-none d-sm-block" src="https://www.google.com/calendar/embed?showTitle=0&showTabs=0&showPrint=0&showCalendars=0&showTz=0&height=500&wkst=2&bgcolor=%23ccccff&src=kyosuke.eclat%40gmail.com&color=%232952A3&src=ja.japanese%23holiday%40group.v.calendar.google.com&color=%23A32929&ctz=Asia/Tokyo" width="470" frameborder="0" scrolling="no"></iframe>
+      <iframe class="d-none d-sm-block iframe-sm" src="https://www.google.com/calendar/embed?showTitle=0&showTabs=0&showPrint=0&showCalendars=0&showTz=0&height=500&wkst=2&bgcolor=%23ccccff&src=makiko.nonaka.ginza%40gmail.com&color=%232952A3&src=ja.japanese%23holiday%40group.v.calendar.google.com&color=%23A32929&ctz=Asia/Tokyo" width="470" frameborder="0" scrolling="no"></iframe>
+      <div class="">
+        <h3 class="staff-h3">野中 真紀子 <span>　Makiko Nonaka</span></h3>
+        <p class="staff-title font-weight-normal">
+          ヘアメイクアーティスト<br>
+          ヘアスタイリスト
+        </p>
+        <a href="#" target="_blank" rel="nofollow" class="btn btn-primary btn-sm d-sm-none mb-1-p">指名 / Appointment <i class="fa fa-play-circle"></i></a>
+        <a href="#" target="_blank" rel="nofollow" class="btn btn-blue btn-sm d-sm-none" data-toggle="modal" data-target="#exampleModal">スケジュール / Schedule <i class="fa fa-play-circle"></i></a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <iframe class="w-100 py-5-p" src="https://www.google.com/calendar/embed?showTitle=0&showTabs=0&showPrint=0&showCalendars=0&showTz=0&height=500&wkst=2&bgcolor=%23ccccff&src=makiko.nonaka.ginza%40gmail.com&color=%232952A3&src=ja.japanese%23holiday%40group.v.calendar.google.com&color=%23A32929&ctz=Asia/Tokyo" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-9 ml-auto clear-left px-0">
+
         <div>
-          <h3 class="staff-h3">野中 真紀子　Makiko Nonaka</h3>
-          <p class="staff-title">
-            ヘアメイクアーティスト<br>
-            ヘアスタイリスト
-          </p>
           <h4>Biography</h4>
           <div>
             <p>
@@ -108,7 +133,7 @@
             <p>
               都内大型店舗を経て、13年4月『éclat daikanyama』 を立ち上げる。<br>
               サロンワーク活動及び、タレント、女優、アーティストのヘアメイクを手掛ける。
-            <p>
+            </p>
           </div>
         </div>
         
@@ -119,12 +144,12 @@
             サロンにてヘアメイクレッスンも実施。ヘア、メイク、その方のライフスタイルに合わせたものをトータルでアドバイス致します。
           </p>
         </div>
-
+        
         <div>
           <h4>最新の作品や活動はこちら</h4>
           <div>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></div>
         </div>
-
+        
         <div>
           <h4>Works</h4>
           <nav>
@@ -260,9 +285,11 @@
               </p>
             </div>
           </div>
-
-        </div>
+        
       </div>
+        
+    </div>
+
     </div>
   </div>
 
