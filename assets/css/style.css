@@ -9,9 +9,10 @@
 }
 @media (min-width: 576px) {
   .container {
-    min-width: 960px;
-    padding-left: 2%;
-    padding-right: 2%;
+    /* min-width: 960px; */
+    /* max-width: 90%; */
+    /* padding-left: 2%; */
+    /* padding-right: 2%; */
   }
 }
 
