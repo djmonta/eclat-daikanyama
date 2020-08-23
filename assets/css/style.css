@@ -85,7 +85,9 @@ a, a:hover {
 .mr-4-p {
   margin-right: 3%;
 }
-
+.ml-4-p {
+  margin-left: 3%;
+}
 .p-5-p {
   padding: 5%;
 }
@@ -537,7 +539,7 @@ dd {
 
 .container.staff {
   font-weight: 300;
-  font-size: .9rem;
+  font-size: .97rem;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -622,15 +624,16 @@ h4  {
   }
 }
 .w-22 {
-  width: 40%;
+  width: 42%;
 }
 @media (min-width: 576px) {
   .w-22 {
-    width: 22.5%;
+    width: 25%;
   }  
 }
 .pic-container {
   height: 30vw;
+  padding-right: 2%;
 }
 .bg-picture {
   background-size: 120%;
@@ -646,6 +649,12 @@ h4  {
     margin-bottom: .5rem;
   }
 }
+@media (min-width: 992px) {
+  .pic-container {
+    height: auto;
+    padding-right: 2.5%;
+  }
+}
 
 .nav-tabs.staff {
   border-bottom: 0;
@@ -654,13 +663,13 @@ h4  {
   border: 1px solid #d4d4d4;
   font-size: 3vw;
   position: relative;
-  padding: .25rem 1rem;
+  padding: .25em 1em;
   min-width: 5rem;
   text-align: center;
 }
 @media (min-width: 576px) {
   .nav-tabs.staff>.nav-link {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 }
 .nav-tabs.staff>.nav-link:not(.active) {
@@ -682,7 +691,7 @@ h4  {
 .tab-content.staff>.tab-pane {
 	border: 1px solid #d4d4d4;
   border-radius: .25rem;
-  font-size: .95rem;
+  font-size: .85rem;
   padding: 1rem;
   max-height: 300px;
   overflow: scroll;
@@ -695,6 +704,9 @@ h4  {
 }
 .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail {
   background-image: none;
+}
+.tab-content.staff>.tab-pane .list-no-mark li {
+  font-size: .85rem;
 }
 .works .v {
   width: 32%;
