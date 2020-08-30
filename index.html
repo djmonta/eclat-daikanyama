@@ -143,14 +143,16 @@
         <h2 class="h2-small">
           <img src="./assets/images/icon/twitter.svg">
         </h2>
-        <img src="./assets/images/screen/twitter.png" class="w-100 mw-100">
+        <div>
+          <a class="twitter-timeline" data-height="300" data-chrome="noheader nofooter" href="https://twitter.com/SalonNews_2019?ref_src=twsrc%5Etfw">Tweets by SalonNews_2019</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
       </div>
       <div class="col-sm px-4">
         <h2 class="h2-small">
          <img src="./assets/images/icon/instagram.svg">
         </h2>
         <img src="./assets/images/screen/instagram_3.png" class="w-100 mw-100">
-      </div>
+      </img>
     </div>
   </div>
 
@@ -576,5 +578,22 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/nav.js"></script>
+  <script>
+function changeTwitterWidgetDesign(){
+  var $twitter_widget = $('iframe.twitter-timeline');
+  var $twitter_widget_contents = $twitter_widget.contents();
+  
+  if ($twitter_widget.length > 0 && $twitter_widget[0].contentWindow.document.body.innerHTML !== ""){
+    $twitter_widget_contents.find('head').append('<link href="./assets/css/style.css" rel="stylesheet" type="text/css">');
+  }
+  else {
+    setTimeout(function(){
+      changeTwitterWidgetDesign();
+    }, 350);
+  }
+}
+ 
+changeTwitterWidgetDesign();
+  </script>
 </body>
 </html>

@@ -722,3 +722,40 @@ h4  {
     width: 32.5%;
   }
 }
+.timeline-Header-title {
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+.timeline-InformationCircle {
+  top: 10px !important;
+}
+.timeline-Tweet-text {
+  font-size: 11px !important;
+  line-height: 14px !important;
+  margin-bottom: 0;
+  margin-left: 0;
+  white-space: initial;
+}
+.TwitterCard .SummaryCard--small .SummaryCard-image {
+  width: 3rem;
+}
+.timeline-Tweet-author {
+  display: none;
+}
+.timeline-Tweet-media,
+.timeline-Tweet-actions {
+  margin-left: 0;
+}
+.timeline-Tweet-media {
+  margin-bottom: 0;
+}
+.timeline-Tweet {
+  padding: 5px;
+}
+.TwitterCard-title {
+  display: inline-block;
+}
+.timeline-Tweet-action {
+  font-size: 14px;
+  margin-top: 2px;
+}
