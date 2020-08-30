@@ -8,7 +8,7 @@
 
 }
 
-@media (max-width: 575.99px) {
+@media (max-width: 575.9px) {
   .page-top {
     padding-top: 3.5rem;
   }
@@ -48,7 +48,7 @@ a, a:hover {
   font-size: .7rem;
   padding: .25rem .5rem;
 }
-@media (max-width: 575.99px) {
+@media (max-width: 575.9px) {
   .btn-sm {
     padding: .1rem .5rem;
   }
@@ -600,7 +600,7 @@ h4  {
   font-size: 3vw;
   line-height: 1.2;
 }
-@media (max-width: 413.99px) {
+@media (max-width: 413.9px) {
   h3.staff-h3 {
     font-size: 3.5vw;
     margin-bottom: .25rem;
@@ -630,7 +630,7 @@ h4  {
 .clear-right {
   clear: right;
 }
-@media (max-width: 575.99px) {
+@media (max-width: 575.9px) {
   .clear-left {
     clear: left;
     padding-top: 0.5%;
