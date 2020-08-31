@@ -777,3 +777,36 @@ h4  {
   font-size: 14px;
   margin-top: 2px;
 }
+
+.bg-image.info {
+  height: 550px;
+}
+@media (min-width: 576px) {
+  .bg-image.info {
+    height: inherit;
+  }
+}
+.info-p {
+  border-radius: .5rem;
+  width: 90%;
+}
+@media (min-width: 576px) {
+  .info-p {
+    width: 75%;
+  }
+}
+
+.row.info {
+  margin: auto;
+  width: 90%;
+}
+@media (min-width: 576px) {
+  .row.info {
+    width: 75%;
+  }
+}
+.info-table th {
+  font-weight: normal;
+  min-width: 5rem;
+  vertical-align: top;
+}
