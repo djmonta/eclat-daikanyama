@@ -95,6 +95,10 @@ a, a:hover {
   padding-left: 5%;
   padding-right: 5%;
 }
+.py-1-p {
+  padding-top: .75%;
+  padding-bottom: .75%;
+}
 .py-3-p {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -778,22 +782,37 @@ h4  {
   margin-top: 2px;
 }
 
-.bg-image.info {
-  height: 550px;
-}
-@media (min-width: 576px) {
+@media (max-width: 575.9px) {
   .bg-image.info {
-    height: inherit;
+    height: 550px;
+  }
+}
+
+.bg-image.info .header-sns-icons {
+  margin-top: -5%;
+}
+@media (max-width: 575.9px) {
+  .bg-image.info .header-sns-icons {
+    width: 40%;
   }
 }
 .info-p {
+  background: rgba(255, 255, 255, .8);
   border-radius: .5rem;
-  width: 90%;
+  width: 85%;
 }
 @media (min-width: 576px) {
   .info-p {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .row.info {
     width: 75%;
   }
+}
+.info-p p {
+  line-height: 1.7;
 }
 
 .row.info {
@@ -801,6 +820,11 @@ h4  {
   width: 90%;
 }
 @media (min-width: 576px) {
+  .row.info {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
   .row.info {
     width: 75%;
   }
