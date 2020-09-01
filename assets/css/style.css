@@ -175,6 +175,7 @@ a, a:hover {
   padding: .5rem;
   height: 82vw;
   margin: 0 auto;
+  max-height: 25rem;
   max-width: 350px;
 }
 
@@ -191,8 +192,8 @@ a, a:hover {
     width: 10rem;
   }
   .tab-content.schedule>.tab-pane {
-    height: 350px;
-    width: 250px;
+    height: 50vw;
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -201,14 +202,15 @@ a, a:hover {
   }
   .tab-content.schedule>.tab-pane {
     padding: .5rem;
-    width: 280px;
+    width: 25rem;
+    height: 25rem;
   }
 }
 @media (min-width: 992px) {
-  .tab-content.schedule>.tab-pane {
+  /* .tab-content.schedule>.tab-pane {
     height: 25rem;
     width: 350px;
-  }
+  } */
 }
 .tab-content.schedule>.tab-pane iframe {
   margin: 0 auto;
