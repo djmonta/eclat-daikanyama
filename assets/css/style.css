@@ -254,22 +254,30 @@ nav {
   background-image: url('../images/top-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 200%;
   width: 100%;
-  height: 50vh;
+  height: 32.5vh;
   max-height: 650px;
 }
 
 .height-25 {
-  height: 25%;
+  height: 22.5%;
 }
 .width-45 {
   width: 45%;
 }
-
+@media (min-width: 415px) {
+  .bg-image {
+    height: 40vh;
+  }
+}
 @media (min-width: 576px) {
   .bg-image {
+    background-size: cover;
     height: 480px;
+  }
+  .height-25 {
+    height: 25%;
   }
   .width-45 {
     width: 20vw;
@@ -285,17 +293,20 @@ nav {
   }
 }
 @media (min-width: 1200px) {
-  .height-25 {
-    height: 25%;
-  }
+
   .width-45 {
     width: 20%;
   }
 }
 .header-sns-icons {
-  margin-top: 2.5%;
-  width: 20%;
+  margin-top: 5%;
+  width: 32.5%;
 }
+.header-sns-icons .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .header-sns-icons a {
   padding-left: 3%;
   padding-right: 3%;
@@ -306,6 +317,14 @@ nav {
 @media (min-width: 576px) {
   .p-title {
     font-size: 1.4vw;
+  }
+  .header-sns-icons {
+    margin-top: 2.5%;
+    width: 20%;
+  }
+  .header-sns-icons .row {
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
 @media (min-width: 768px) {
