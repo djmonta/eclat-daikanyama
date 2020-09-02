@@ -24,16 +24,21 @@ $(function() {
   
   $('[data-fancybox="gallery"]').fancybox({
     // smallBtn: true,
-    // clickOutside: "close",
+    clickOutside: "close",
+    clickSlide: "close",
     buttons: [
-      // "zoom",
-      //"share",
-      // "slideShow",
-      //"fullScreen",
-      //"download",
-      // "thumbs",
       "close"
     ],
+    mobile: {
+      preventCaptionOverlap: false,
+      idleTime: false,
+      clickContent: function(current, event) {
+        return current.type === "image" ? "close" : false;
+      },
+      clickSlide: function(current, event) {
+        return current.type === "image" ? "close" : "close";
+      },
+    }
   });
 
 });
