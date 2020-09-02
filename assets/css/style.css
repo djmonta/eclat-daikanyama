@@ -861,11 +861,6 @@ h4  {
     width: 80%;
   }
 }
-@media (min-width: 992px) {
-  .row.info {
-    width: 75%;
-  }
-}
 .info-p p {
   line-height: 1.7;
 }
@@ -878,10 +873,16 @@ h4  {
   /* .row.info {
     width: 80%;
   } */
+  .row.gallery {
+    width: 80%;
+  }
 }
 @media (min-width: 992px) {
   .row.info {
     width: 75%;
+  }
+  .row.gallery {
+    width: 70%;
   }
 }
 .info-table th {
@@ -889,17 +890,21 @@ h4  {
   min-width: 5rem;
   vertical-align: top;
 }
+.row.gallery .col {
+  padding-left: 2%;
+  padding-right: 2%;
+}
 .h-500 {
-  height: 80vw;
+  height: 95vw;
 }
 @media (min-width: 576px) {
   .h-500 {
-    height: 55vw;
+    height: 52vw;
   }
 }
 @media (min-width: 992px) {
   .h-500 {
-    height: 30rem;
+    height: 28rem;
   }
 }
 @media (min-width: 1200px) {
