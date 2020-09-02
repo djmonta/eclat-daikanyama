@@ -22,4 +22,18 @@ $(function() {
     }
   });
   
+  $('[data-fancybox="gallery"]').fancybox({
+    // smallBtn: true,
+    // clickOutside: "close",
+    buttons: [
+      // "zoom",
+      //"share",
+      // "slideShow",
+      //"fullScreen",
+      //"download",
+      // "thumbs",
+      "close"
+    ],
+  });
+
 });
