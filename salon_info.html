@@ -11,6 +11,7 @@
   <!-- Bootstrap core CSS -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/css/all.min.css" rel="stylesheet">
+  <link href="./assets/css/jquery.fancybox.min.css" rel="stylesheet">
   <link href="./assets/css/style.css" rel="stylesheet">
   <link href="./assets/css/nav-global.css" rel="stylesheet">
 </head>
@@ -19,7 +20,7 @@
     <div class="container container-lg px-0 bg-image info page-top">
   <nav class="navbar-expand-sm nav-global bg-white-op">
     <div class="container container-lg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="./assets/images/logo.png" class="mw-100">
       </a>
       <a href="https://bpl.salonpos-net.com/e-reserve/3M1W101/" target="_blank" rel="nofollow" class="d-sm-none btn btn-primary btn-sm ml-auto">
@@ -80,7 +81,8 @@
     </div>
   </nav>
 
-  <div class="bg-white-op info-p py-1-p mx-auto my-5-p">
+  <div class="height-15"></div>
+  <div class="bg-white-op info-p py-1-p mx-auto">
     <div class="container justify-content-center align-items-center">
       <div class="text-center">
         <h2>Salon Information</h2>
@@ -113,19 +115,19 @@
   <div class="header-sns-icons mx-auto">
     <div class="row row-cols-md-5">
       <a href="https://www.instagram.com/eclat_daikanyama/" target="_blank" rel="nofollow" class="col">
-        <img src="./assets/images/icon/instagram.svg" class="mw-100">
+        <img src="./assets/images/icon/instagram-80.svg" class="mw-100">
       </a>
       <a href="https://www.facebook.com/eclat.daikanyama" target="_blank" rel="nofollow" class="col">
-        <img src="./assets/images/icon/facebook.svg" class="mw-100">
+        <img src="./assets/images/icon/facebook-80.svg" class="mw-100">
       </a>
       <a href="https://twitter.com/SalonNews_2019" target="_blank" rel="nofollow" class="col">
-        <img src="./assets/images/icon/twitter.svg" class="mw-100">
+        <img src="./assets/images/icon/twitter-80.svg" class="mw-100">
       </a>
       <a href="https://timeline.line.me/user/_dfYOMGWzHmgrloQlm6EF--F_zTJEkN5cewARUDY" target="_blank" rel="nofollow" class="col">
-        <img src="./assets/images/icon/line.svg" class="mw-100">
+        <img src="./assets/images/icon/line-80.svg" class="mw-100">
       </a>
       <a href="https://ameblo.jp/eclatdaikanyama" target="_blank" rel="nofollow" class="col">
-        <img src="./assets/images/icon/blogger.svg" class="mw-100">
+        <img src="./assets/images/icon/blogger-80.svg" class="mw-100">
       </a>
     </div>
   </div>
@@ -174,49 +176,56 @@
   </div>
 
   <div class="container mt-5-p">
-    <div class="row info row-cols-3 row-cols-sm-4 px-4" style="height:550px;">
+    <div class="row info row-cols-3 row-cols-sm-4 px-4 h-500">
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" data-src="#cutbooth1" href="javascirpt:void(0);" class="d-block"><img src="./assets/images/salon/cutbooth1.jpg" class="mw-100"></a>
+        <div style="display: none;" id="cutbooth1">
+          <img src="./assets/images/salon/cutbooth1.jpg" class="mw-100">
+        </div>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" data-src="#cutbooth2" href="javascirpt:void(0);" class="d-block"><img src="./assets/images/salon/cutbooth2.jpg" class="mw-100"></a>
+        <div style="display: none;" id="cutbooth2">
+          <img src="./assets/images/salon/cutbooth2.jpg" class="mw-100">
+        </div>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/cutbooth3.jpg" class="d-block"><img src="./assets/images/salon/cutbooth3.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon.jpg" class="d-block"><img src="./assets/images/salon.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/makeroom.jpg" class="d-block"><img src="./assets/images/salon/makeroom.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/shampoo11.jpg" class="d-block"><img src="./assets/images/salon/shampoo11.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/shampoo12.jpg" class="d-block"><img src="./assets/images/salon/shampoo12.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/shampoo13.jpg" class="d-block"><img src="./assets/images/salon/shampoo13.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/vipshampoo.jpg" class="d-block"><img src="./assets/images/salon/vipshampoo.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/viproom.jpg" class="d-block"><img src="./assets/images/salon/viproom.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/shampoo2.jpg" class="d-block"><img src="./assets/images/salon/shampoo2.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/reception.jpg" class="d-block"><img src="./assets/images/salon/reception.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/green.jpg" class="d-block"><img src="./assets/images/salon/green.jpg" class="mw-100"></a>
       </div>
       <div class="col">
-        <img src="./assets/images/salon.jpg" class="mw-100">
+        <a data-fancybox="gallery" href="./assets/images/salon/window.jpg" class="d-block"><img src="./assets/images/salon/window.jpg" class="mw-100"></a>
       </div>
+
     </div>
     <div class="row info px-4">
       <p class="font-size-small text-center">
@@ -267,6 +276,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/nav.js"></script>
+  <script src="./assets/js/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
