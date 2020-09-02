@@ -829,6 +829,7 @@ h4  {
 .bg-image.info {
   background-size: cover;
   height: auto;
+  max-height: none;
 }
 
 @media (min-width: 576px) {
@@ -904,5 +905,20 @@ h4  {
 @media (min-width: 1200px) {
   .h-500 {
     height: 550px;
+  }
+}
+/* .fancybox-button {
+  background: rgba(250, 250, 250, .5);
+  color: #555;
+}
+.fancybox-button:hover {
+  color: #666;
+}
+.fancybox-button[disabled], .fancybox-button[disabled]:hover {
+  color: #aaa;
+} */
+@media (min-width: 992px) {
+  .fancybox-content {
+    max-width: 75%;
   }
 }
