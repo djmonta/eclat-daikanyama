@@ -422,6 +422,18 @@ nav {
   }
 }
 
+.iframe-map {
+  border: 0;
+  height: 300px;
+  width: 90%;
+}
+@media (min-width: 1200px) {
+  .iframe-map {
+    height: 350px;
+    width: 78%;
+  }
+}
+
 .staff-page-img {
   float: left;
   width: 40%;
