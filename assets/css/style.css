@@ -900,10 +900,10 @@ h4  {
   margin: auto;
   width: 90%;
 }
+.row.x-narrow-sm {
+  justify-content: center;
+}
 @media (min-width: 576px) {
-  /* .row.info {
-    width: 80%;
-  } */
   .row.gallery {
     width: 80%;
   }
@@ -928,7 +928,7 @@ h4  {
 }
 .info-table th {
   font-weight: normal;
-  min-width: 5rem;
+  min-width: 6em;
   vertical-align: top;
 }
 .row.gallery .col {
@@ -984,6 +984,12 @@ h4  {
   padding-right: .25rem;
   text-align: right;
   vertical-align: top;
+}
+
+@media (min-width: 992px) {
+  .message-p {
+    min-width: 42em;
+  }
 }
 
 /* .fancybox-button {
