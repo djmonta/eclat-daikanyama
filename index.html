@@ -564,25 +564,11 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/InstagramFeed.min.js"></script>
   <script src="./assets/js/nav.js"></script>
   <script>
-function changeTwitterWidgetDesign(){
-  var $twitter_widget = $('iframe.twitter-timeline');
-  var $twitter_widget_contents = $twitter_widget.contents();
-  
-  if ($twitter_widget.length > 0 && $twitter_widget[0].contentWindow.document.body.innerHTML !== ""){
-    $twitter_widget_contents.find('head').append('<link href="./assets/css/style.css" rel="stylesheet" type="text/css">');
-  }
-  else {
-    setTimeout(function(){
-      changeTwitterWidgetDesign();
-    }, 350);
-  }
-}
- 
-changeTwitterWidgetDesign();
+    changeTwitterWidgetDesign();
   </script>
-  <script src="./assets/js/InstagramFeed.min.js"></script>
   <script>
       (function(){
           new InstagramFeed({
@@ -601,26 +587,5 @@ changeTwitterWidgetDesign();
           });
       })();
   </script>
-  <style>
-    .instagram_gallery {
-      display: flex;
-    }
-    .instagram_gallery a {
-      display: block;
-      position: relative;
-      position: relative;
-      width: 31.3333333333332%;
-      margin: 1%;
-    }
-    .instagram_gallery a img {
-      max-width: 100%;
-    }
-    .instagram-sidecar:before {
-      content: url(./assets/images/icon/ig-gallery.png);
-      position: absolute;
-      top: 0;
-      right: 4px;
-    }
-  </style>
 </body>
 </html>

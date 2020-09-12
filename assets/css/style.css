@@ -1007,3 +1007,29 @@ h4  {
     max-width: 75%;
   }
 }
+.instagram_gallery {
+  display: flex;
+}
+.instagram_gallery a {
+  display: block;
+  position: relative;
+  position: relative;
+  width: 31.3333333333332%;
+  margin: 1%;
+}
+#instagram-feed-staff .instagram_gallery a {
+  display: block;
+  position: relative;
+  position: relative;
+  width: 24%;
+  margin: 1%;
+}
+.instagram_gallery a img {
+  max-width: 100%;
+}
+.instagram-sidecar:before {
+  content: url(../images/icon/ig-gallery.png);
+  position: absolute;
+  top: 0;
+  right: 4px;
+}

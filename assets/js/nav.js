@@ -22,6 +22,7 @@ $(function() {
     }
   });
   
+  if ($('[data-fancybosy="gallery"').length > 0) {
   $('[data-fancybox="gallery"]').fancybox({
     // smallBtn: true,
     clickOutside: "close",
@@ -40,5 +41,20 @@ $(function() {
       },
     }
   });
+  }
 
 });
+
+function changeTwitterWidgetDesign() {
+  var $twitter_widget = $('iframe.twitter-timeline');
+  var $twitter_widget_contents = $twitter_widget.contents();
+  
+  if ($twitter_widget.length > 0 && $twitter_widget[0].contentWindow.document.body.innerHTML !== ""){
+    $twitter_widget_contents.find('head').append('<link href="./assets/css/style.css" rel="stylesheet" type="text/css">');
+  }
+  else {
+    setTimeout(function(){
+      changeTwitterWidgetDesign();
+    }, 350);
+  }
+}
