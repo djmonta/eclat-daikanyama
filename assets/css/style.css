@@ -996,6 +996,27 @@ h4  {
   }
 }
 
+.staff-list .narrow {
+  max-width: 500px;
+}
+.staff-list .staff-img {
+  height: 80px;
+  margin: 0 auto;
+  width: 106px;
+}
+.staff-list .staff-img img {
+  width: 12px;
+}
+.staff-list .staff-img .insta-icon-link {
+  margin-bottom: 2px;
+}
+.staff-list .font-size-small {
+  font-size: x-small;
+}
+.staff-list .font-size-12 {
+  font-size: xx-small;
+}
+
 /* .fancybox-button {
   background: rgba(250, 250, 250, .5);
   color: #555;
