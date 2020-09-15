@@ -22,7 +22,7 @@ $(function() {
     }
   });
   
-  if ($('[data-fancybosy="gallery"').length > 0) {
+  if ($('[data-fancybox="gallery"]').length > 0) {
   $('[data-fancybox="gallery"]').fancybox({
     // smallBtn: true,
     clickOutside: "close",

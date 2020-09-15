@@ -108,6 +108,10 @@ a, a:hover {
 .p-5-p {
   padding: 5%;
 }
+.px-3-p {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 .px-5-p {
   padding-left: 5%;
   padding-right: 5%;
