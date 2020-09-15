@@ -1018,6 +1018,12 @@ h4  {
   font-size: xx-small;
 }
 
+@media (min-width: 992px) {
+  .row.narrow.narrow-sm {
+    width: 50%;
+  }
+}
+
 /* .fancybox-button {
   background: rgba(250, 250, 250, .5);
   color: #555;
