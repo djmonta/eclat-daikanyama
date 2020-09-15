@@ -196,7 +196,8 @@ a, a:hover {
   padding: .5rem;
   height: 82vw;
   margin: 0 auto;
-  max-height: 25rem;
+  min-height: 25rem;
+  max-height: 28rem;
   max-width: 350px;
 }
 
@@ -224,7 +225,7 @@ a, a:hover {
   .tab-content.schedule>.tab-pane {
     padding: .5rem;
     width: 25rem;
-    height: 25rem;
+    height: 27rem;
   }
 }
 @media (min-width: 992px) {
