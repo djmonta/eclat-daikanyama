@@ -928,7 +928,7 @@ h4  {
 }
 .info-table th {
   font-weight: normal;
-  min-width: 6em;
+  min-width: 6rem;
   vertical-align: top;
 }
 .row.gallery .col {
