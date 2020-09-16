@@ -567,7 +567,12 @@ dd {
 }
 .price {
   text-align: right;
-  width: 4.3rem;
+  width: 4rem;
+}
+@media (max-width: 575.9px) {
+  .price {
+    width: 5rem;
+  }
 }
 .price-from {
   margin-left: 0;
