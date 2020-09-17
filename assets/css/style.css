@@ -1029,10 +1029,12 @@ h4  {
   background-size: cover;
   background-image: url(../images/nail/nail_bg.png);
   background-position: left bottom;
+  height: 60vw;
+  max-height: 700px;
   width: 100%;
 }
 .bg-mask {
-  margin-top: -60vw;
+  margin-top: -40vw;
   height: 100%;
 }
 .height-120 {
@@ -1044,19 +1046,19 @@ h4  {
   }
 }
 @media (min-width: 768px) {
-  .bg-mask {
+  /* .bg-mask {
     margin-top: -52.5%;
-  }
+  } */
 }
 @media (min-width: 992px) {
   .bg-mask {
-    margin-top: -380px;
+    margin-top: -540px;
   }
 }
 @media (min-width: 1200px) {
-  .bg-mask {
+  /* .bg-mask {
     margin-top: -540px;
-  }
+  } */
 }
 
 h3.noborder {
