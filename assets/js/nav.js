@@ -22,8 +22,8 @@ $(function() {
     }
   });
   
-  if ($('[data-fancybox="gallery"]').length > 0) {
-  $('[data-fancybox="gallery"]').fancybox({
+  if ($('.gallery').length > 0) {
+  $('.gallery').fancybox({
     // smallBtn: true,
     clickOutside: "close",
     clickSlide: "close",

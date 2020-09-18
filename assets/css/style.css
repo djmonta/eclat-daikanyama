@@ -90,6 +90,9 @@ a, a:hover {
 .mt-5-p {
   padding-top: 3vw;
 }
+.mt-10-p {
+  padding-top: 10vw;
+}
 .my-5-p {
   margin-top: 7.5%;
   margin-bottom: 7.5%;
@@ -97,6 +100,9 @@ a, a:hover {
 @media (min-width: 1200px) {
   .mt-5-p {
     padding-top: 3rem;
+  }
+  .mt-10-p {
+    padding-top: 6rem;
   }
 }
 .mr-4-p {
@@ -945,6 +951,10 @@ h4  {
   padding-left: 2%;
   padding-right: 2%;
 }
+.row.gallery-nail .col {
+  padding-left: 1%;
+  padding-right: 1%;
+}
 .h-500 {
   height: 95vw;
 }
@@ -1028,6 +1038,47 @@ h4  {
   .row.narrow.narrow-sm {
     width: 50%;
   }
+}
+
+.bg-image.nail {
+  background-size: cover;
+  background-image: url(../images/nail/nail_bg.png);
+  background-position: left bottom;
+  height: 60vw;
+  max-height: 700px;
+  width: 100%;
+}
+.bg-mask {
+  margin-top: -40vw;
+  height: 100%;
+}
+.height-120 {
+  height: 57px;
+}
+@media (min-width: 576px) {
+  .bg-mask {
+    margin-top: -50vw;
+  }
+}
+@media (min-width: 768px) {
+  /* .bg-mask {
+    margin-top: -52.5%;
+  } */
+}
+@media (min-width: 992px) {
+  /* .bg-mask {
+    margin-top: -500px;
+  } */
+}
+@media (min-width: 1200px) {
+  .bg-mask {
+    margin-top: -600px;
+  }
+}
+
+h3.noborder {
+  border-bottom: 0;
+  text-align: center;
 }
 
 /* .fancybox-button {
