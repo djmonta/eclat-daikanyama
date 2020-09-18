@@ -10,7 +10,28 @@ $(function() {
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   window.onscroll = function() {
     $('.navbar-collapse').collapse('hide');
+
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2top').fadeIn();
+    } else {
+        $('#back2top').fadeOut();
+    }
   }
+
+// $(window).scroll(function() {
+//   var height = $(window).scrollTop();
+//   if (height > 100) {
+//       $('#back2top').fadeIn();
+//   } else {
+//       $('#back2top').fadeOut();
+//   }
+// });
+  $("#back2top").click(function(event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
+  });
 
   $(document).on("click", function(e){
     if ( 

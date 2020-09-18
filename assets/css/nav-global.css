@@ -315,3 +315,9 @@ body {
   .hamburger--vortex-r.is-active .hamburger-inner::after {
     bottom: 0;
     transform: rotate(-90deg); }
+
+#back2top {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
