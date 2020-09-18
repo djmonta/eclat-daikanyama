@@ -91,7 +91,7 @@ a, a:hover {
   padding-top: 3vw;
 }
 .mt-10-p {
-  padding-top: 6vw;
+  padding-top: 10vw;
 }
 .my-5-p {
   margin-top: 7.5%;
@@ -1061,14 +1061,14 @@ h4  {
   } */
 }
 @media (min-width: 992px) {
-  .bg-mask {
-    margin-top: -540px;
-  }
+  /* .bg-mask {
+    margin-top: -500px;
+  } */
 }
 @media (min-width: 1200px) {
-  /* .bg-mask {
-    margin-top: -540px;
-  } */
+  .bg-mask {
+    margin-top: -600px;
+  }
 }
 
 h3.noborder {
