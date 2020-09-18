@@ -385,21 +385,31 @@ nav {
   }
 }
 
+.row.top-staff .col {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .staff-img {
   background-size: 140% auto;
   background-repeat: no-repeat;
   background-position: center 5%;
-  height: 20vw;
+  height: 17vw;
   width: 100%;
 }
 @media (min-width: 576px) {
   .staff-img {
-    height: 7.8vw;
+    height: 9.5vw;
   }
 }
 @media (min-width: 992px) {
   .staff-img {
-    height: 80px;
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .staff-img {
+    height: 110px;
   }
 }
 
