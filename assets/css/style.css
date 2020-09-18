@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 html,
 body {
   box-sizing: border-box;
@@ -451,7 +452,8 @@ nav {
   width: 40%;
 }
 h2 {
-  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 h2 {
@@ -475,7 +477,7 @@ h2 {
 }
 
 h3 {
-  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Quicksand', serif;
   font-size: 1.25rem;
   border-bottom: 1px solid #aaa;
 }
@@ -493,7 +495,7 @@ h3 span {
 }
 
 .font-family-serif {
-  font-family: 'ヒラギノ明朝 ProN', serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: .7rem;
 }
 
