@@ -970,7 +970,7 @@ h4  {
   justify-content: center;
 }
 @media (min-width: 576px) {
-  .row.gallery {
+  .row.gallery-row {
     width: 80%;
   }
 }
@@ -978,7 +978,7 @@ h4  {
   .row.narrow {
     width: 75%;
   }
-  .row.gallery {
+  .row.gallery-row {
     width: 70%;
   }
 }
@@ -997,7 +997,7 @@ h4  {
   min-width: 6rem;
   vertical-align: top;
 }
-.row.gallery .col {
+.row.gallery-row .col {
   padding-left: 2%;
   padding-right: 2%;
 }
