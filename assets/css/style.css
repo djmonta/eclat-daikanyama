@@ -554,14 +554,22 @@ h3 span {
   font-size: .7rem;
   font-weight: 300;
 }
+.service-subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .7rem;
+  font-weight: 300;
+}
 
 @media (min-width: 992px) {
   h3 {
     font-size: 1.35rem;
   }
   .font-family-serif {
-    font-size: 1rem;
+    font-size: .95rem;
   }
+  .service-subtitle {
+    font-size: .9rem;
+  }  
 }
 
 .b-shadow {
