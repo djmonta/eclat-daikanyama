@@ -489,6 +489,11 @@ nav {
   }
 }
 
+.link-service {
+  font-weight: 300;
+  font-size: .9rem;
+}
+
 .iframe-map {
   border: 0;
   height: 300px;
