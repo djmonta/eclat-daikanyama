@@ -1100,7 +1100,7 @@ h4  {
   height: 60vw;
   max-height: 700px;
   width: 100%;
-  z-index: -1;
+  position: initial;
 }
 .bg-mask {
   margin-top: -40vw;
